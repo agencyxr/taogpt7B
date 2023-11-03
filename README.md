@@ -52,6 +52,13 @@ Taogpt7b is organized into several key components to facilitate fine-tuning, dat
 
 - **Gradio**: Gradio is used to create a user-friendly and interactive interface for testing the fine-tuned model and engaging with Tao Science content.
 
+## To-Do list
+
+- [x] Generate Synthetic Data
+- [x] Test of qLora Finetuning
+- [x] Test Lora Finetuning
+- [x] User Interface using StreamLit to depl
+
 ## Contributing
 
 We welcome contributions to Taogpt7b. If you'd like to contribute to the project, please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
