@@ -20,7 +20,8 @@ In this project, we aim to address this challenge by fine-tuning Mistral 7b on d
 
 To get started with Taogpt7b, you can fine-tune Mistral 7b on Tao Science related data and perform inference using the provided Colab notebooks. Click on the following links to access the respective notebooks:
 
-- Fine-Tuning on Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/agencyxr/taogpt7B/blob/main/finetuning.ipynb)
+- Fine-Tuning Mistral7b with TaoScience Dataset on Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/agencyxr/taogpt7B/blob/main/finetuning.ipynb)
+- Fine-Tuning Mistral7b- with TaoScience Dataset : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/agencyxr/taogpt7B/blob/main/finetuning_instruct.ipynb)
 - Inference on Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/agencyxr/taogpt7B/blob/main/inference.ipynb)
 
 ## Project Structure
@@ -52,12 +53,6 @@ Taogpt7b is organized into several key components to facilitate fine-tuning, dat
 
 - **Gradio**: Gradio is used to create a user-friendly and interactive interface for testing the fine-tuned model and engaging with Tao Science content.
 
-## To-Do list
-
-- [x] Generate Synthetic Data
-- [x] Test of qLora Finetuning
-- [x] Test Lora Finetuning
-- [x] User Interface using StreamLit to depl
 
 ## Contributing
 
