@@ -1,1 +1,3 @@
 .env
+/dataset_prep/Extracted_data.txt
+/dataset_prep/TaoGPT-v1.json
