@@ -1,4 +1,4 @@
-# Taogpt7b
+# TAOGPT-7B
 
 ## Table of Contents
 
@@ -12,13 +12,13 @@
 
 ## Introduction
 
-Taogpt7b is an exciting project at the intersection of technology and the cutting-edge field of Tao Science. Tao Science is a relatively new and uncharted area of scientific exploration, which poses a unique challenge for Language Model Models (LLMs) like Mistral 7b. These models have been primarily trained on conventional data, and Tao Science's unexplored territory requires specific tuning to provide valuable insights and information.
+TAOGPT-7B is an exciting project at the intersection of technology and the cutting-edge field of Tao Science. Tao Science is a relatively new and uncharted area of scientific exploration, which poses a unique challenge for Language Model Models (LLMs) like Mistral 7b. These models have been primarily trained on conventional data, and Tao Science's unexplored territory requires specific tuning to provide valuable insights and information.
 
-In this project, we aim to address this challenge by fine-tuning Mistral 7b on data related to Tao Science. By doing so, we intend to make this LLM more adept at understanding and generating content in this novel field. To further enhance the performance and utility of Taogpt7b, we have implemented a Retrieval Augmentation pipeline. This pipeline ensures that the results are not only generated from the fine-tuned model but are also enriched through relevant information retrieval.
+In this project, we aim to address this challenge by fine-tuning Mistral 7b on data related to Tao Science. By doing so, we intend to make this LLM more adept at understanding and generating content in this novel field. To further enhance the performance and utility of TAOGPT-7B, we have implemented a Retrieval Augmentation pipeline. This pipeline ensures that the results are not only generated from the fine-tuned model but are also enriched through relevant information retrieval.
 
 ## Getting Started
 
-To get started with Taogpt7b, you can fine-tune Mistral 7b on Tao Science related data and perform inference using the provided Colab notebooks. Click on the following links to access the respective notebooks:
+To get started with TAOGPT-7B, you can fine-tune Mistral 7b on Tao Science related data and perform inference using the provided Colab notebooks. Click on the following links to access the respective notebooks:
 
 - Fine-Tuning Mistral7b with TaoScience Dataset on Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/agencyxr/taogpt7B/blob/main/finetuning.ipynb)
 - Fine-Tuning Mistral7b- with TaoScience Dataset : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/agencyxr/taogpt7B/blob/main/finetuning_instruct.ipynb)
