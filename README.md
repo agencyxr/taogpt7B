@@ -1,68 +1,59 @@
-# TAOGPT-7B
+# TaoGPT-7B
 
 ## Table of Contents
-
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contributors](#contributors)
+1. [Introduction](#introduction)
+2. [Getting Started](#getting-started)
+3. [Project Structure](#project-structure)
+4. [Technologies Used](#technologies-used)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contributors](#contributors)
 
 ## Introduction
-
-TAOGPT-7B is an exciting project at the intersection of technology and the cutting-edge field of Tao Science. Tao Science is a relatively new and uncharted area of scientific exploration, which poses a unique challenge for Language Model Models (LLMs) like Mistral 7b. These models have been primarily trained on conventional data, and Tao Science's unexplored territory requires specific tuning to provide valuable insights and information.
-
-In this project, we aim to address this challenge by fine-tuning Mistral 7b on data related to Tao Science. By doing so, we intend to make this LLM more adept at understanding and generating content in this novel field. To further enhance the performance and utility of TAOGPT-7B, we have implemented a Retrieval Augmentation pipeline. This pipeline ensures that the results are not only generated from the fine-tuned model but are also enriched through relevant information retrieval.
+TaoGPT-7B is a pioneering project blending technology with the innovative field of Tao Science. The objective is to fine-tune the Mistral 7B Language Model (LLM) on Tao Science data to enhance its proficiency in this novel area. A Retrieval Augmentation pipeline is implemented to enrich outputs with relevant information.
 
 ## Getting Started
+To start with TaoGPT-7B, follow these steps:
+- Fine-tune Mistral 7B on Tao Science data.
+- Utilize the Colab notebooks for training and inference.
 
-To get started with TAOGPT-7B, you can fine-tune Mistral 7b on Tao Science related data and perform inference using the provided Colab notebooks. Click on the following links to access the respective notebooks:
-
-- Fine-Tuning Mistral7b with TaoScience Dataset on Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/agencyxr/taogpt7B/blob/main/finetuning.ipynb)
-- Fine-Tuning Mistral7b- with TaoScience Dataset : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/agencyxr/taogpt7B/blob/main/finetuning_instruct.ipynb)
-- Inference on Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/agencyxr/taogpt7B/blob/main/inference.ipynb)
+### Notebooks:
+- [Fine-Tuning Mistral 7B with TaoScience Dataset](https://colab.research.google.com/github/agencyxr/taogpt7B/blob/main/finetuning.ipynb)
+- [Instructed Fine-Tuning of Mistral 7B with TaoScience Dataset](https://colab.research.google.com/github/agencyxr/taogpt7B/blob/main/finetuning_instruct.ipynb)
+- [Inference with TaoGPT-7B on Google Colab](https://colab.research.google.com/github/agencyxr/taogpt7B/blob/main/inference.ipynb)
 
 ## Project Structure
-
-Taogpt7b is organized into several key components to facilitate fine-tuning, data preparation, and inference:
-
+The project is structured into several components:
 - **Data**:
-  - `/unstructured`: Contains unstructured data in the form of PDFs related to Tao Science.
-  - `/structured`: Houses datasets extracted from the provided PDFs.
+  - `/unstructured`: Contains PDFs and unstructured data on Tao Science.
+  - `/structured`: Datasets derived from PDFs.
 
 - **Data Preparation**:
-  - `dataprep.ipynb`: This notebook plays a crucial role in the project by converting unstructured data into a structured format. It also stores this data in a vector database for efficient retrieval and integration with the fine-tuned model.
+  - `dataprep.ipynb`: Transforms unstructured data into a structured format.
 
 - **Fine-Tuning**:
-  - `finetuning.ipynb`: This notebook focuses on the supervised fine-tuning of Mistral 7b using the Tao Science data. The resulting model is then pushed to the model hub, making it readily accessible for inference and interaction.
+  - `finetuning.ipynb`: Focuses on the supervised fine-tuning of Mistral 7B using Tao Science datasets.
 
 - **Inference**:
-  - `inference.ipynb`: In this notebook, you can test the fine-tuned model's capabilities with RAG (Retrieval-Augmented Generation) using Gradio to create an interactive user interface.
+  - `inference.ipynb`: Tests the capabilities of the fine-tuned model using RAG and Gradio for user interaction.
 
 ## Technologies Used
-
-- **Language Model Model (LLM)**: Mistral 7b serves as the foundation of our project, fine-tuned to cater to the specific needs of Tao Science.
-
-- **Langchain**: Langchain is used for orchestrating the various components of the project, ensuring seamless integration and flow.
-
-- **Transformers Library**: This library provides the necessary tools for working with LLMs, including inference and fine-tuning.
-
-- **Weaviate**: Weaviate is employed as the vector store for efficient data retrieval, enabling the retrieval augmentation pipeline.
-
-- **Gradio**: Gradio is used to create a user-friendly and interactive interface for testing the fine-tuned model and engaging with Tao Science content.
-
+TaoGPT-7B employs various technologies:
+- **Mistral 7B (LLM)**: Central model, tailored for Tao Science.
+- **Langchain**: Ensures seamless project component integration.
+- **Transformers Library**: Provides LLM fine-tuning and inference tools.
+- **Weaviate**: Manages efficient data retrieval.
+- **Gradio**: Creates an interactive interface for model engagement.
 
 ## Contributing
-
-We welcome contributions to Taogpt7b. If you'd like to contribute to the project, please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+Contributions to TaoGPT-7B are appreciated. For contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### Contributors
+For a list of contributors, visit:
 <a href="https://github.com/agencyxr/taogpt7B/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=agencyxr/taogpt7B" />
 </a>
 
 ## License
+TaoGPT-7B is under the MIT License. See [LICENSE.md](LICENSE.md) for more details.
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
